@@ -7,8 +7,8 @@ const Banner = () => {
       <div className='flex w-full flex-col md:flex-row justify-between items-center gap-12 py-40'>
         {/* left side  */}
         <div className='md:w-1/2 space-y-8 h-full'>
-                <h2 className='text-5xl font-bold leading-snug text-black'>Buy and Sell Your Books
-                <span className='text-blue-700'> for the Best Prices</span></h2>
+                <h2 className='text-5xl font-bold leading-snug text-black'>Read and Review your
+                <span className='text-blue-700'> Favourite Books</span></h2>
                 <p className='md:w-4/5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum vel doloremque dolorem maxime. Perspiciatis quam error cupiditate fuga necessitatibus odit, consectetur eveniet quo!</p>
                 <div>
                     <input type='text' name='search' id='search' placeholder='Search a book...' className='py-2 px-2 rounded-s-sm outline-none'/>
