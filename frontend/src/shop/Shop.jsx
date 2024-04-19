@@ -21,10 +21,10 @@ const Shop = () => {
               {book.bookTitle}
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+              {book.bookDescription.slice(0,100)}
             </p>
 
-            <button className='bg-blue-700 hover:bg-black text-white font-semibold py-2 rounded'>Buy Now</button>
+            <button className='bg-blue-700 hover:bg-black text-white font-semibold py-2 rounded'>Read Now</button>
           </Card>)
         }
       </div>
