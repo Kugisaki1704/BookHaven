@@ -11,11 +11,12 @@ const Sidbar = () => {
   console.log(user);
 
   return (
+   <div className="mt-12">
     <Sidebar aria-label="Sidebar with content separator example">
         <Sidebar.Logo 
         href="#" 
         // img={user.photoURL} 
-        imgAlt="photo">
+        imgAlt="">
         <p>{user?.displayName || "Demo User"}</p>
       </Sidebar.Logo>
       <Sidebar.Items>
@@ -62,6 +63,7 @@ const Sidbar = () => {
         </Sidebar.ItemGroup>
       </Sidebar.Items>
     </Sidebar>
+    </div>
   );
 };
 
